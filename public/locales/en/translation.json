@@ -1,4 +1,8 @@
 {
-	"Тестовый пример": "Test example",
-	"Язык": "English"
+  "Вызвать ошибку": "Throw error",
+  "Обновить страницу": "Reload page",
+  "Произошла непредвиденная ошибка": "An unexpected error has occurred",
+  "Страница не найдена": "Page not found",
+  "Тестовый пример": "Test example",
+  "Язык": "English"
 }
