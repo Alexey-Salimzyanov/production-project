@@ -3,7 +3,6 @@ import {
     MouseEvent, ReactNode, useCallback, useEffect, useRef, useState,
 } from 'react';
 import { useTheme } from 'app/providers/ThemeProvider';
-import { log } from 'console';
 import cls from './Modal.module.scss';
 import { Portal } from '../Portal/Portal';
 

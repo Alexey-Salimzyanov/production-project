@@ -9,7 +9,7 @@
     pointer-events: none;
 }
 
-.content.loght {
+.content.light {
     background: var(--bg-color);
     color: var(--primary-color);
 }
@@ -32,23 +32,23 @@
     padding: 20px;
     background: var(--bg-color);
     border-radius: 10px;
-    transition: 0.3s transform;
-    transform: scale(0.5);
+    margin-top: -800px;
+    transition: 0.25s margin-top;
     max-width: 60%;
 }
 
 .opened {
     pointer-events: auto;
-    opacity: 1;
     z-index: var(--modal-z-index);
+    opacity: 1;
 
     .content {
-        transform: scale(1);
+        margin-top: 0;
     }
 }
 
 .closing {
     .content {
-        transform: scale(0.2);
+        margin-top: -800px;
     }
 }
